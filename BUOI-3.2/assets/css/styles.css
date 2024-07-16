@@ -1,0 +1,42 @@
+/* Reset Browser */
+* {
+  /* K/C Phan Tu*/
+  margin: 0;
+  /* K/C Phan Tu*/
+  padding: 0;
+  /* Kich thuoc PT tren tat ca trinh duyet nhu nhau */
+  box-sizing: border-box;
+}
+
+/* Bo chon theo ID */
+#title_2_1 {
+  color: red;
+}
+#title_2_2 {
+  color: blue;
+}
+
+/* Bo chon theo class */
+.title_3_1 {
+  color: violet;
+}
+.title_3_2 {
+  color: orange;
+}
+
+/* Bo chon cha con XY */
+div h4 {
+  color: green;
+}
+
+h4 {
+  color: pink;
+}
+
+/* Bo chon theo tag Link */
+a:link {
+  color: black;
+}
+a:visited {
+  color: aqua;
+}

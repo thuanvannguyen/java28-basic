@@ -1,0 +1,80 @@
+/* Reset Browser */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Phan tu cha */
+.container {
+  /* width: 1200px; */
+  height: 1000px;
+  background-color: pink;
+
+  /* Can giua PT */
+  margin: auto;
+
+  display: flex;
+
+  /* flex-direction: Xd huong PT con */
+  /* flex-direction: column-reverse; */
+
+  /* flex-wrap: PT con tu dong xuong hang kich thuoc cua PT con vuot qua man hinh */
+  /* flex-wrap: wrap; */
+
+  /* justify-content: 
+  Can chinh PT theo hang (Quan Trong) */
+  /* justify-content: center; */
+
+
+  /* aline-item:
+  Can chinh PT theo cot (Quan trong)
+  */
+  /* align-items: center; */
+
+
+  /* align-content: Can chinh cac hang item */
+  /* align-content: flex-end; */
+}
+
+
+
+
+
+
+
+
+
+
+/* Phan tu con */
+.item-1 {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  font-size: 20px;
+  color: #fff;
+  /* order: 2; */
+
+  /* flex-grow: 1; */
+}
+
+.item-2 {
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+  font-size: 20px;
+  color: #fff;
+  /* order: 3; */
+
+  /* flex-grow: 1; */
+  flex-shrink: 0;
+}
+
+.item-3 {
+  width: 150px;
+  height: 150px;
+  background-color: violet;
+  font-size: 20px;
+  color: #fff;
+  /* order: 1; */
+}

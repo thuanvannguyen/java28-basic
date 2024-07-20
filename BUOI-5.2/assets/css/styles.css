@@ -1,0 +1,115 @@
+/* Reset Browser */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  background-color: pink;
+  height: 1500px;
+  padding-top: 100px;
+}
+
+.card {
+  width: 400px;
+  margin: auto;
+
+  /* height: 550px;
+  background-color: violet; */
+}
+
+/* Card Header */
+.card-header {
+  width: 100%;
+  /* height: 80px; */
+  /* background-color: blue; */
+  display: flex;
+}
+.card-header-left {
+  width: 20%;
+  height: 80px;
+  background-color: white;
+  display: flex;
+  /* Can chinh PT theo hang (row) */
+  justify-content: center;
+  /* Can chinh PT theo cot (Coloumn) */
+  align-items: center;
+}
+.card-header-left i {
+  font-size: 30px;
+  color: red;
+}
+.card-header-center {
+  width: 70%;
+  height: 80px;
+  background-color: orange;
+}
+.card-header-right {
+  width: calc(100% - (20% + 70%));
+  height: 80px;
+  background-color: yellow;
+}
+
+/* Card Main */
+.card-main {
+  width: 100%;
+  /* height: 350px;
+  background-color: black; */
+}
+.card-main img {
+  width: 100%;
+
+  /* anh hien phu tu dong theo kich thuoc PT cha */
+  object-fit: cover;
+}
+
+/* Card Footer */
+.card-footer {
+  width: 100%;
+  /* height: 200px;
+  background-color: yellow; */
+}
+
+.card-footer-content {
+  width: 100%;
+  height: 140px;
+  background-color: brown;
+}
+.list-social {
+  width: 100%;
+  /* height: 50px;
+  background-color: blue; */
+
+  display: flex;
+}
+.list-social-left {
+  width: 50%;
+  height: 50px;
+  background-color: green;
+}
+.list-social-left ul {
+  display: flex;
+  align-items: center;
+  height: 50px;
+}
+.list-social-left ul li {
+  list-style: none; /* bo dau cham mac dinh ul li*/
+  margin-left: 10px;
+}
+
+
+.list-social-right {
+  width: 50%;
+  height: 50px;
+  background-color: violet;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.list-social-right i {
+  color: black;
+  padding-right: 10px;
+}

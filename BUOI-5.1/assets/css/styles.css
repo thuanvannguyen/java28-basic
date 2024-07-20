@@ -1,0 +1,106 @@
+/* Reset Browser */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Menu */
+.header-top {
+  width: 100%;
+  height: 40px;
+  background-color: black;
+}
+
+.menu-main {
+  width: 100%;
+  height: 100px;
+  background-color: yellowgreen;
+
+  position: sticky;
+  top: 0;
+  z-index: 99999999;
+}
+
+/* STATIC POSTION */
+.box-1 {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+
+  position: static;
+  /* top: 10px; */
+
+  /* margin-top: 10px; */
+
+  /* margin: top right bottom left */
+  /* margin: 0 0 0 50px; */
+
+  /* 50px (top - bottom) 0 (right-left) */
+  /* margin: 50px 0; */
+}
+
+/* RELAVTIVE POSTION */
+.box-2 {
+  width: 150px;
+  height: 150px;
+  background-color: blue;
+
+  /* position: relative; */
+  /* top: 50px;
+  left: 50px; */
+}
+
+/* ABSOLUTE POSTION */
+.box-3 {
+  width: 400px;
+  height: 400px;
+  background-color: green;
+
+  /*Mat troi*/
+  position: relative;
+}
+
+.box-4 {
+  width: 150px;
+  height: 150px;
+  background-color: orange;
+
+  position: absolute;   /*Trai dat*/
+  top: 100px;
+  left: 50px;
+  z-index: 1;
+}
+
+.box-5 {
+  width: 150px;
+  height: 150px;
+  background-color: aqua;
+
+  top: 10px;
+  position: absolute;
+  z-index: 999;
+
+}
+
+
+
+
+
+.content {
+  width: 100%;
+  height: 500px;
+  background-color: pink;
+}
+
+/* FIXED POSTION */
+.messenger {
+  width: 150px;
+  height: 150px;
+  background-color: violet;
+  border-radius: 50%;   /* Hinh tron */
+
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}

@@ -1,0 +1,36 @@
+/* Reset Browser */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Thay doi gia tri cua 1 thuoc tinh */
+.box-1 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+
+  transition: width 0.2s;
+}
+
+
+/* hover: cu phap trong css khi di chuot vao 1 PT */
+.box-1:hover { 
+  width: 400px;
+}
+
+
+/* Thay doi gia tri cua nhieu thuoc tinh */
+.box-2 {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+
+  transition: width .3s, height .3s;
+}
+
+.box-2:hover {
+  width: 400px;
+  height: 400px;
+}

@@ -1,0 +1,57 @@
+/* Reset Browser */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* translate(x,y) */
+.box-1 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  /* margin-top: 50px;
+  margin-left: 50px; */
+
+  /* transform: translate(100px, 30px); */
+  /* transform: translateY(100px); */
+}
+
+
+/* scale(x,y) */
+.box-2 {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  margin: auto;
+}
+.box-2:hover {
+  /* width: 200px;
+  height: 200px; */
+  transform: scale(2, 2);
+}
+
+/* rotate() */
+.box-3 {
+  width: 100px;
+  height: 100px;
+  background-color: violet;
+
+  transform: rotate(45deg);
+}
+
+/* Ket hop Transition va Transform  */
+.box-4 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: auto;
+
+  transition: transform .5s;
+}
+.box-4:hover {
+  /* transform: scale(2,2); */
+  width: 200px;
+  height: 200px;
+  transform: rotate(180deg);
+}

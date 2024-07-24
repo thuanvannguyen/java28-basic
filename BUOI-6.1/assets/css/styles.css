@@ -34,3 +34,61 @@
   width: 400px;
   height: 400px;
 }
+
+
+/* Toc do chuyen doi */
+.wrap-box div {
+  width: 200px;
+  height: 200px;
+}
+
+/* --- linear --- */
+.box-3 {
+  background-color: violet;
+
+  transition: width 0.4s;
+  transition-timing-function: linear;
+}
+.box-3:hover {
+  width: 500px;
+}
+
+
+/* --- ease --- */
+.box-4 {
+  background-color: yellow;
+
+  /* Quy dinh thoi gian chuyen doi width: 200px -> 500px la 0.4s */
+  transition: width .4s;
+
+  transition-timing-function: ease;
+}
+
+.box-4:hover {
+  width: 500px;
+}
+
+/* --- ease-in --- */
+.box-5 {
+  background-color: orange;
+
+  transition: width .4s;
+  transition-timing-function: ease-in;
+}
+
+.box-5:hover {
+  width: 500px;
+}
+
+/* Do tre cua hieu ung Transition */
+.box-6 {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+
+  transition: width .5s;
+  transition-delay: 3s;
+}
+.box-6:hover {
+  width: 800px;
+}

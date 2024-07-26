@@ -6,6 +6,12 @@
   font-family: "Mulish", sans-serif;
 }
 
+/* Global CSS */
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
 /* Header-Top */
 .header-top {
   width: 100%;
@@ -15,13 +21,15 @@
   align-items: center;
   justify-content: center;
 
-  position: relative; /* Mat Troi */
+  position: relative;
+  /* Mat Troi */
 }
 
 .header-top p {
   color: #fff;
   font-size: 16px;
 }
+
 .header-top .close {
   width: 25px;
   height: 25px;
@@ -35,4 +43,80 @@
 
   position: absolute;
   right: 10px;
+}
+
+/* Header Main */
+.header-main {
+  width: 100%;
+  height: 65px;
+}
+.wrap-header {
+  display: flex;
+}
+.logo {
+  /* width: 20%; */
+  height: 65px;
+  display: flex;
+  align-items: center;
+}
+
+.menu-main {
+  height: 65px;
+  /* width: 50%;
+  background-color: aqua; */
+}
+.menu-main ul {
+  display: flex;
+  height: 65px;
+  align-items: center;
+}
+.menu-main ul li {
+  list-style: none; /* Bo dau cham li*/
+}
+.menu-main ul li a {
+  text-decoration: none; /* Bo gach chan the a */
+  color: #000;
+  font-weight: 600; /* Do dam cua chu */
+  margin-right: 15px;
+}
+
+
+.button-menu {
+  width: 15%;
+  /* background-color: orange; */
+
+  height: 65px;
+  display: flex;
+  align-items: center;
+}
+
+.button-menu button {
+  border: none;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 15px;
+  background-color: #fff;
+}
+
+/* :hover -> thuoc tinh nguoi dung di chuot qua nut buttopn */
+.button-menu button:hover {
+  background-color: #F8F8F8;
+  cursor: pointer; /* chuyen tu mui ten thanh ban tay */
+}
+.button-menu .active:hover {
+  cursor: not-allowed;
+  background-color: #fff;
+
+}
+
+
+
+
+
+
+.button-user {
+  width: 15%;
+  height: 65px;
+  background-color: pink;
 }
